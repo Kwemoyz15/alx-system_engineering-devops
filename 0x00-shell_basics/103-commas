@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p --sort=dfX | sed 's/\/$/\//g' | sed 's/^\.$/\.\//g' | sed 's/\/[^/]*$//g' | grep -v "^\." | awk 'BEGIN{ORS=","} {print $0}' | sed 's/,$/\n/'
+ls -apm | sort -d
