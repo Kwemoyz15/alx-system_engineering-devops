@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -L https://www.youtube.com/watch?v=vZ734NWnAHA | mpv -
+telnet towel.blinkenlights.nl
