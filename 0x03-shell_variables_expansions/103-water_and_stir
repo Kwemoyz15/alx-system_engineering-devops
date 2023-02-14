@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($WATER + $STIR)) | bc -l | awk '{print "bestchol"$1}'
+echo "The result is: $((10#${WATER} + 10#${STIR}))"
